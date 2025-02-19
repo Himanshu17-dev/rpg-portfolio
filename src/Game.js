@@ -22,11 +22,13 @@ class GameScene extends Phaser.Scene {
 
 const config = {
   type: Phaser.AUTO,
-  width: 400,
-  height: 300,
+  width: 800,
+  height: 600,
   scene: GameScene,
   parent: "game-container",
+  transparent: true, // Makes Phaser use the body's background
 };
+;
 
 const Game = () => {
   useEffect(() => {
