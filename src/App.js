@@ -1,15 +1,17 @@
 import React from "react";
 import Game from "./Game";
+import "./styles.css";
 
-const App = () => {
+function App() {
   return (
-    <div className="container">
-      <h1 className="text-2xl font-bold text-center mt-4">
-        Himanshu's RPG Portfolio
-      </h1>
+    <div id="parallax-container">
+      <div id="background"></div>
       <Game />
     </div>
   );
-};
+}
 
 export default App;
+
+
+
